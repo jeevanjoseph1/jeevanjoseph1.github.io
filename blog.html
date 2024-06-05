@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrimeProperty - Real Estate</title>
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonts used in the project -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header class="header" data-header>
+    <!-- Overlay for navbar -->
+    <div class="overlay" data-overlay></div>
+
+    <!-- Header top section -->
+    <div class="header-top">
+      <div class="container">
+        <!-- Header top information and social links -->
+        <ul class="header-top-list">
+          <!-- Email link -->
+          <li>
+            <a href="mailto:info@homeverse.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>info@PrimeProperty.com</span>
+            </a>
+          </li>
+          <!-- Location link -->
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
+              <address>33 Sheikh Zayed Road Dubai Marina Dubai, UAE</address>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Social media links and add listing button -->
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+            <!-- Facebook link -->
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <!-- Twitter link -->
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <!-- Instagram link -->
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <!-- Pinterest link -->
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <!-- Button to add a listing -->
+          <button class="header-top-btn">Add Listing</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Header bottom section -->
+    <div class="header-bottom">
+      <div class="container">
+        <!-- Logo and navigation -->
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="Homeverse logo">
+        </a>
+
+        <!-- Navbar -->
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <!-- Navbar logo and close button -->
+            <a href="#" class="logo">
+              <img src="images/logo.png" alt="Homeverse logo">
+            </a>
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="navbar-bottom">
+            <!-- Navbar links -->
+            <ul class="navbar-list">
+              <li>
+                <a href="index.html" class="navbar-link">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="navbar-link">About</a>
+              </li>
+              <li>
+                <a href="service.html" class="navbar-link">Service</a>
+              </li>
+              <li>
+                <a href="property.html" class="navbar-link">Property</a>
+              </li>
+              <li>
+                <a href="blog.html" class="navbar-link">Blog</a>
+              </li>
+              <li>
+                <a href="contact.html" class="navbar-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Header bottom action buttons -->
+        <div class="header-bottom-actions">
+          <button class="header-bottom-actions-btn" aria-label="Search">
+            <ion-icon name="search-outline"></ion-icon>
+            <span>Search</span>
+          </button>
+          <button class="header-bottom-actions-btn" aria-label="Profile">
+            <ion-icon name="person-outline"></ion-icon>
+            <span>Profile</span>
+          </button>
+          <button class="header-bottom-actions-btn" aria-label="Cart">
+            <ion-icon name="cart-outline"></ion-icon>
+            <span>Cart</span>
+          </button>
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+            <span>Menu</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+  <!-- MAIN CONTENT -->
+
+  <main>
+    <article>
+
+      <!-- Blog Section -->
+      <section class="blog" id="blog">
+        <div class="container">
+          <!-- Section subtitle -->
+          <p class="section-subtitle">News & Blogs</p>
+          <!-- Section title -->
+          <h2 class="h2 section-title">Latest News Feeds</h2>
+          <!-- Blog list -->
+          <ul class="blog-list has-scrollbar">
+            <!-- Blog item 1 -->
+            <li>
+              <div class="blog-card">
+                <!-- Blog card banner -->
+                <figure class="card-banner">
+                  <img src="images/blog-1.png" alt="The Most Inspiring Interior Design Of 2024" class="w-100">
+                </figure>
+                <!-- Blog card content -->
+                <div class="blog-content">
+                  <!-- Blog content top -->
+                  <div class="blog-content-top">
+                    <!-- Card meta list -->
+                    <ul class="card-meta-list">
+                      <!-- Author -->
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="person"></ion-icon>
+                          <span>by: john dorian</span>
+                        </a>
+                      </li>
+                      <!-- Category -->
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="pricetags"></ion-icon>
+                          <span>Interior</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- Blog title -->
+                    <h3 class="h3 blog-title">
+                      <a href="https://archgyan.com/embracing-the-top-10-interior-design-trends-of-2024/">The Most Inspiring Interior Design Of 2024</a>
+                    </h3>
+                  </div>
+                  <!-- Blog content bottom -->
+                  <div class="blog-content-bottom">
+                    <!-- Publish date -->
+                    <div class="publish-date">
+                      <ion-icon name="calendar"></ion-icon>
+                      <time datetime="2022-27-04">Apr 27, 2023</time>
+                    </div>
+                    <!-- Read more button -->
+                    <a href="https://archgyan.com/embracing-the-top-10-interior-design-trends-of-2024/" class="read-more-btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- Blog item 2 -->
+            <li>
+              <div class="blog-card">
+                <!-- Blog card banner -->
+                <figure class="card-banner">
+                  <img src="images/blog-2.jpg" alt="Recent Commercial Real Estate Transactions" class="w-100">
+                </figure>
+                <!-- Blog card content -->
+                <div class="blog-content">
+                  <!-- Blog content top -->
+                  <div class="blog-content-top">
+                    <!-- Card meta list -->
+                    <ul class="card-meta-list">
+                      <!-- Author -->
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="person"></ion-icon>
+                          <span>by: Joseph</span>
+                        </a>
+                      </li>
+                      <!-- Category -->
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="pricetags"></ion-icon>
+                          <span>Estate</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- Blog title -->
+                    <h3 class="h3 blog-title">
+                      <a href="https://www.us.jll.com/en/newsroom">Recent Commercial Real Estate Transactions</a>
+                    </h3>
+                  </div>
+                  <!-- Blog content bottom -->
+                  <div class="blog-content-bottom">
+                    <!-- Publish date -->
+                    <div class="publish-date">
+                      <ion-icon name="calendar"></ion-icon>
+                      <time datetime="2022-27-04">Apr 07, 2024</time>
+                    </div>
+                    <!-- Read more button -->
+                    <a href="https://www.us.jll.com/en/newsroom" class="read-more-btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- Blog item 3 -->
+            <li>
+              <div class="blog-card">
+                <!-- Blog card banner -->
+                <figure class="card-banner">
+                  <img src="images/blog-3.jpg" alt="Renovating a Living Room? Experts Share Their Secrets" class="w-100">
+                </figure>
+                <!-- Blog card content -->
+                <div class="blog-content">
+                  <!-- Blog content top -->
+                  <div class="blog-content-top">
+                    <!-- Card meta list -->
+                    <ul class="card-meta-list">
+                      <!-- Author -->
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="person"></ion-icon>
+                          <span>by: Charles darvin</span>
+                        </a>
+                      </li>
+                      <!-- Category -->
+                      <li>
+                        <a href="#" class="card-meta-link">
+                          <ion-icon name="pricetags"></ion-icon>
+                          <span>Room</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- Blog title -->
+                    <h3 class="h3 blog-title">
+                      <a href="https://www.thespruce.com/living-room-ideas-that-pay-off-4171259">Renovating a Living Room? Experts Share Their Secrets</a>
+                    </h3>
+                  </div>
+                  <!-- Blog content bottom -->
+                  <div class="blog-content-bottom">
+                    <!-- Publish date -->
+                    <div class="publish-date">
+                      <ion-icon name="calendar"></ion-icon>
+                      <time datetime="2022-27-04">May 27, 2023</time>
+                    </div>
+                    <!-- Read more button -->
+                    <a href="https://www.thespruce.com/living-room-ideas-that-pay-off-4171259" class="read-more-btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <!-- Footer brand -->
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="images/logo-light.png" alt="Homeverse logo">
+          </a>
+          <!-- Footer brand description -->
+          <p class="section-text">Turning dreams into addresses. Let PrimeProperty guide you to your perfect sanctuary.</p>
+          <!-- Contact information -->
+          <ul class="contact-list">
+            <li>
+              <a href="#" class="contact-link">
+                <ion-icon name="location-outline"></ion-icon>
+                <address>33 Sheikh Zayed Road Dubai Marina Dubai, UAE</address>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+0123456789" class="contact-link">
+                <ion-icon name="call-outline"></ion-icon>
+                <span>+971 50 123 4567</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:contact@homeverse.com" class="contact-link">
+                <ion-icon name="mail-outline"></ion-icon>
+                <span>contact@PrimeProperty.com</span>
+              </a>
+            </li>
+          </ul>
+          <!-- Social media links -->
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Footer links -->
+        <div class="footer-link-box">
+          <!-- Company links -->
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Company</p>
+            </li>
+            <li>
+              <a href="#" class="footer-link">About</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">All Products</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Locations Map</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Contact us</a>
+            </li>
+          </ul>
+          <!-- Services links -->
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Services</p>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Order tracking</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Wish List</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Login</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">My account</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Promotional Offers</a>
+            </li>
+          </ul>
+          <!-- Customer care links -->
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Customer Care</p>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Login</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">My account</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Wish List</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Order tracking</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Footer bottom section -->
+    <div class="footer-bottom">
+      <div class="container">
+        <!-- Copyright notice -->
+        <p class="copyright">&copy; 2024 <a href="#">JeevanJospeh</a>. All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrimeProperty - Real Estate</title>
+
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <!-- Header Section -->
+  <header class="header" data-header>
+
+    <!-- Overlay -->
+    <div class="overlay" data-overlay></div>
+
+    <!-- Top Header -->
+    <div class="header-top">
+      <div class="container">
+
+        <!-- Header Top Links -->
+        <ul class="header-top-list">
+
+          <!-- Email -->
+          <li>
+            <a href="mailto:info@primeproperty.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>info@PrimeProperty.com</span>
+            </a>
+          </li>
+
+          <!-- Location -->
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
+              <address>33 Sheikh Zayed Road Dubai Marina Dubai, UAE</address>
+            </a>
+          </li>
+
+        </ul>
+
+        <!-- Social Links and Add Listing Button -->
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+
+            <!-- Facebook -->
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <!-- Twitter -->
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <!-- Instagram -->
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <!-- Pinterest -->
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <!-- Add Listing Button -->
+          <button class="header-top-btn">Add Listing</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Bottom Header -->
+    <div class="header-bottom">
+      <div class="container">
+
+        <!-- Logo -->
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="Homeverse logo">
+        </a>
+
+        <!-- Navigation -->
+        <nav class="navbar" data-navbar>
+
+          <!-- Navbar Top (Logo and Close Button) -->
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="images/logo.png" alt="Homeverse logo">
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <!-- Navbar Bottom (Navigation Links) -->
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+              <!-- Home -->
+              <li>
+                <a href="index.html" class="navbar-link">Home</a>
+              </li>
+
+              <!-- About -->
+              <li>
+                <a href="about.html" class="navbar-link">About</a>
+              </li>
+
+              <!-- Service -->
+              <li>
+                <a href="service.html" class="navbar-link">Service</a>
+              </li>
+
+              <!-- Property -->
+              <li>
+                <a href="property.html" class="navbar-link">Property</a>
+              </li>
+
+              <!-- Blog -->
+              <li>
+                <a href="blog.html" class="navbar-link">Blog</a>
+              </li>
+
+              <!-- Contact -->
+              <li>
+                <a href="contact.html" class="navbar-link">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+
+        <!-- Header Bottom Actions (Search, Profile, Cart, Menu) -->
+        <div class="header-bottom-actions">
+
+          <!-- Search Button -->
+          <button class="header-bottom-actions-btn" aria-label="Search">
+            <ion-icon name="search-outline"></ion-icon>
+            <span>Search</span>
+          </button>
+
+          <!-- Profile Button -->
+          <button class="header-bottom-actions-btn" aria-label="Profile">
+            <ion-icon name="person-outline"></ion-icon>
+            <span>Profile</span>
+          </button>
+
+          <!-- Cart Button -->
+          <button class="header-bottom-actions-btn" aria-label="Cart">
+            <ion-icon name="cart-outline"></ion-icon>
+            <span>Cart</span>
+          </button>
+
+          <!-- Menu Button -->
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+  <!-- MAIN CONTENT -->
+
+  <main>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container py-5">
+        <div class="row">
+          <!-- Contact Form -->
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <h2 class="section-title mb-4">Contact Us</h2>
+            <p class="section-subtitle mb-4">If You Have Any Query, Please Contact Us</p>
+            <form>
+              <div class="row g-3">
+                <!-- Name Input -->
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control bg-light" id="name" placeholder="Your Name">
+                    <label for="name">Your Name</label>
+                  </div>
+                </div>
+                <!-- Email Input -->
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="email" class="form-control bg-light" id="email" placeholder="Your Email">
+                    <label for="email">Your Email</label>
+                  </div>
+                </div>
+                <!-- Subject Input -->
+                <div class="col-12">
+                  <div class="form-floating">
+                    <input type="text" class="form-control bg-light" id="subject" placeholder="Subject">
+                    <label for="subject">Subject</label>
+                  </div>
+                </div>
+                <!-- Message Input -->
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control bg-light"id="message" style="height: 150px" style="width:100px"></textarea>
+                    <label for="message"></label>
+                  </div>
+                </div>
+                <!-- Submit Button -->
+                <div class="col-12">
+                  <button class="btn btn-primary mt-3 px-4" type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- Google Map -->
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="position-relative h-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462561.6574537445!2d55.22748795!3d25.076022449999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai!5e0!3m2!1sen!2sae!4v1717197066029!5m2!1sen!2sae" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <!-- Footer Section -->
+  <footer class="footer">
+
+    <!-- Footer Top -->
+    <div class="footer-top">
+      <div class="container">
+
+        <!-- Footer Brand -->
+        <div class="footer-brand">
+
+          <!-- Logo -->
+          <a href="#" class="logo">
+            <img src="images/logo-light.png" alt="Homeverse logo">
+          </a>
+
+          <!-- Brand Description -->
+          <p class="section-text">
+            Turning dreams into addresses. Let PrimeProperty guide you to your perfect sanctuary.
+          </p>
+
+          <!-- Contact Information -->
+          <ul class="contact-list">
+
+            <!-- Location -->
+            <li>
+              <a href="#" class="contact-link">
+                <ion-icon name="location-outline"></ion-icon>
+                <address>33 Sheikh Zayed Road Dubai Marina Dubai, UAE</address>
+              </a>
+            </li>
+
+            <!-- Phone -->
+            <li>
+              <a href="tel:+0123456789" class="contact-link">
+                <ion-icon name="call-outline"></ion-icon>
+                <span>+971 50 123 4567</span>
+              </a>
+            </li>
+
+            <!-- Email -->
+            <li>
+              <a href="mailto:contact@primeproperty.com" class="contact-link">
+                <ion-icon name="mail-outline"></ion-icon>
+                <span>contact@PrimeProperty.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <!-- Social Links -->
+          <ul class="social-list">
+
+            <!-- Facebook -->
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <!-- Twitter -->
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <!-- LinkedIn -->
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <!-- YouTube -->
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- Footer Link Box -->
+        <div class="footer-link-box">
+
+          <!-- Company Links -->
+          <ul class="footer-list">
+
+            <!-- Title -->
+            <li>
+              <p class="footer-list-title">Company</p>
+            </li>
+
+            <!-- About -->
+            <li>
+              <a href="#" class="footer-link">About</a>
+            </li>
+
+            <!-- Blog -->
+            <li>
+              <a href="#" class="footer-link">Blog</a>
+            </li>
+
+            <!-- All Products -->
+            <li>
+              <a href="#" class="footer-link">All Products</a>
+            </li>
+
+            <!-- Locations Map -->
+            <li>
+              <a href="#" class="footer-link">Locations Map</a>
+            </li>
+
+            <!-- FAQ -->
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+
+            <!-- Contact Us -->
+            <li>
+              <a href="#" class="footer-link">Contact us</a>
+            </li>
+
+          </ul>
+
+          <!-- Service Links -->
+          <ul class="footer-list">
+
+            <!-- Title -->
+            <li>
+              <p class="footer-list-title">Services</p>
+            </li>
+
+            <!-- Order Tracking -->
+            <li>
+              <a href="#" class="footer-link">Order tracking</a>
+            </li>
+
+            <!-- Wish List -->
+            <li>
+              <a href="#" class="footer-link">Wish List</a>
+            </li>
+
+            <!-- Login -->
+            <li>
+              <a href="#" class="footer-link">Login</a>
+            </li>
+
+            <!-- My Account -->
+            <li>
+              <a href="#" class="footer-link">My account</a>
+            </li>
+
+            <!-- Terms & Conditions -->
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+
+            <!-- Promotional Offers -->
+            <li>
+              <a href="#" class="footer-link">Promotional Offers</a>
+            </li>
+
+          </ul>
+
+          <!-- Customer Care Links -->
+          <ul class="footer-list">
+
+            <!-- Title -->
+            <li>
+              <p class="footer-list-title">Customer Care</p>
+            </li>
+
+            <!-- Login -->
+            <li>
+              <a href="#" class="footer-link">Login</a>
+            </li>
+
+            <!-- My Account -->
+            <li>
+              <a href="#" class="footer-link">My account</a>
+            </li>
+
+            <!-- Wish List -->
+            <li>
+              <a href="#" class="footer-link">Wish List</a>
+            </li>
+
+            <!-- Order Tracking -->
+            <li>
+              <a href="#" class="footer-link">Order tracking</a>
+            </li>
+
+            <!-- FAQ -->
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+
+            <!-- Contact Us -->
+            <li>
+              <a href="#" class="footer-link">Contact us</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <div class="container">
+
+        <!-- Copyright -->
+        <p class="copyright">
+          &copy; 2024 <a href="#">JeevanJospeh</a>. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrimeProperty - Real Estate</title>
+
+ 
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER SECTION -->
+
+  <header class="header" data-header>
+
+    <!-- Header Overlay -->
+    <div class="overlay" data-overlay></div>
+
+    <!-- Header Top Section -->
+    <div class="header-top">
+      <div class="container">
+
+        <!-- Header Top Links -->
+        <ul class="header-top-list">
+
+          <!-- Email Link -->
+          <li>
+            <a href="mailto:info@homeverse.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>info@PrimeProperty.com</span>
+            </a>
+          </li>
+
+          <!-- Location Link -->
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
+              <address>33 Sheikh Zayed Road Dubai Marina Dubai, UAE</address>
+            </a>
+          </li>
+
+        </ul>
+
+        <!-- Header Top Social Links and Button -->
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+
+            <!-- Social Links -->
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <!-- Add Listing Button -->
+          <button class="header-top-btn">Add Listing</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Header Bottom Section -->
+    <div class="header-bottom">
+      <div class="container">
+
+        <!-- Logo -->
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="Homeverse logo">
+        </a>
+
+        <!-- Navbar -->
+        <nav class="navbar" data-navbar>
+
+          <!-- Navbar Top (Logo and Close Button) -->
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="images/logo.png" alt="Homeverse logo">
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <!-- Navbar Bottom (Links) -->
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+              <!-- Home Link -->
+              <li>
+                <a href="index.html" class="navbar-link">Home</a>
+              </li>
+
+              <!-- About Link -->
+              <li>
+                <a href="about.html" class="navbar-link">About</a>
+              </li>
+
+              <!-- Service Link -->
+              <li>
+                <a href="service.html" class="navbar-link">Service</a>
+              </li>
+
+              <!-- Property Link -->
+              <li>
+                <a href="property.html" class="navbar-link">Property</a>
+              </li>
+
+              <!-- Blog Link -->
+              <li>
+                <a href="blog.html" class="navbar-link">Blog</a>
+              </li>
+
+              <!-- Contact Link -->
+              <li>
+                <a href="contact.html" class="navbar-link">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+
+        <!-- Header Bottom Actions (Search, Profile, Cart, Menu) -->
+        <div class="header-bottom-actions">
+
+          <!-- Search Button -->
+          <button class="header-bottom-actions-btn" aria-label="Search">
+            <ion-icon name="search-outline"></ion-icon>
+            <span>Search</span>
+          </button>
+
+          <!-- Profile Button -->
+          <button class="header-bottom-actions-btn" aria-label="Profile">
+            <ion-icon name="person-outline"></ion-icon>
+            <span>Profile</span>
+          </button>
+
+          <!-- Cart Button -->
+          <button class="header-bottom-actions-btn" aria-label="Cart">
+            <ion-icon name="cart-outline"></ion-icon>
+            <span>Cart</span>
+          </button>
+
+          <!-- Menu Button -->
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+  <!-- MAIN CONTENT -->
+
+  <main>
+    <article>
+
+      <!-- HERO SECTION -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <!-- Hero Content -->
+          <div class="hero-content">
+
+            <!-- Hero Subtitle -->
+            <p class="hero-subtitle">
+              <ion-icon name="home"></ion-icon>
+              <span>Real Estate Agency</span>
+            </p>
+
+            <!-- Hero Title -->
+            <h2 class="h1 hero-title">Find Your Dream House with Us</h2>
+
+            <!-- Hero Text -->
+            <p class="hero-text">
+              "Discover your prime property, where dreams find their perfect address."
+            </p>
+
+            <!-- Make An Enquiry Button -->
+            <button class="btn" onclick="window.location.href='contact.html'">Make An Enquiry</button>
+
+          </div>
+
+          <!-- Hero Banner -->
+          <figure class="hero-banner">
+            <img src="images/hero-banner.png" alt="Modern house model" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+      <!-- CTA SECTION -->
+
+      <section class="cta">
+        <div class="container">
+          <div class="cta-card">
+            <div class="card-content">
+              <!-- CTA Title -->
+              <h2 class="h2 card-title">Looking for a dream home?</h2>
+              <!-- CTA Text -->
+              <p class="card-text">PrimeProperty is here to help you turn that dream into a reality, guiding you every step of the way to finding your perfect sanctuary."</p>
+            </div>
+            <!-- Explore Properties Button -->
+            <button class="btn cta-btn" id="explore-properties-btn">
+              <span>Explore Properties</span>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER SECTION -->
+
+      <footer class="footer">
+
+        <!-- Footer Top Section -->
+        <div class="footer-top">
+          <div class="container">
+
+            <!-- Footer Brand -->
+            <div class="footer-brand">
+
+              <!-- Logo -->
+              <a href="#" class="logo">
+                <img src="images/logo-light.png" alt="Homeverse logo">
+              </a>
+
+              <!-- Section Text -->
+              <p class="section-text">
+                Turning dreams into addresses. Let PrimeProperty guide you to your perfect sanctuary.
+              </p>
+
+              <!-- Contact List -->
+              <ul class="contact-list">
+
+                <!-- Address Link -->
+                <li>
+                  <a href="#" class="contact-link">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <address>33 Sheikh Zayed Road Dubai Marina Dubai, UAE</address>
+                  </a>
+                </li>
+
+                <!-- Phone Link -->
+                <li>
+                  <a href="tel:+0123456789" class="contact-link">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span>+971 50 123 4567</span>
+                  </a>
+                </li>
+
+                <!-- Email Link -->
+                <li>
+                  <a href="mailto:contact@homeverse.com" class="contact-link">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span>contact@PrimeProperty.com</span>
+                  </a>
+                </li>
+
+              </ul>
+
+              <!-- Social List -->
+              <ul class="social-list">
+
+                <!-- Facebook Link -->
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <!-- Twitter Link -->
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <!-- LinkedIn Link -->
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <!-- YouTube Link -->
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <!-- Footer Link Box -->
+            <div class="footer-link-box">
+
+              <!-- Footer Lists -->
+              <ul class="footer-list">
+
+                <!-- Company Section -->
+                <li>
+                  <p class="footer-list-title">Company</p>
+                </li>
+
+                <!-- About Link -->
+                <li>
+                  <a href="#" class="footer-link">About</a>
+                </li>
+
+                <!-- Blog Link -->
+                <li>
+                  <a href="#" class="footer-link">Blog</a>
+                </li>
+
+                <!-- All Products Link -->
+                <li>
+                  <a href="#" class="footer-link">All Products</a>
+                </li>
+
+                <!-- Locations Map Link -->
+                <li>
+                  <a href="#" class="footer-link">Locations Map</a>
+                </li>
+
+                <!-- FAQ Link -->
+                <li>
+                  <a href="#" class="footer-link">FAQ</a>
+                </li>
+
+                <!-- Contact Us Link -->
+                <li>
+                  <a href="#" class="footer-link">Contact us</a>
+                </li>
+
+              </ul>
+
+              <!-- Services Section -->
+              <ul class="footer-list">
+
+                <!-- Services Section Title -->
+                <li>
+                  <p class="footer-list-title">Services</p>
+                </li>
+
+                <!-- Order Tracking Link -->
+                <li>
+                  <a href="#" class="footer-link">Order tracking</a>
+                </li>
+
+                <!-- Wish List Link -->
+                <li>
+                  <a href="#" class="footer-link">Wish List</a>
+                </li>
+
+                <!-- Login Link -->
+                <li>
+                  <a href="#" class="footer-link">Login</a>
+                </li>
+
+                <!-- My Account Link -->
+                <li>
+                  <a href="#" class="footer-link">My account</a>
+                </li>
+
+                <!-- Terms & Conditions Link -->
+                <li>
+                  <a href="#" class="footer-link">Terms & Conditions</a>
+                </li>
+
+                <!-- Promotional Offers Link -->
+                <li>
+                  <a href="#" class="footer-link">Promotional Offers</a>
+                </li>
+
+              </ul>
+
+              <!-- Customer Care Section -->
+              <ul class="footer-list">
+
+                <!-- Customer Care Section Title -->
+                <li>
+                  <p class="footer-list-title">Customer Care</p>
+                </li>
+
+                <!-- Login Link -->
+                <li>
+                  <a href="#" class="footer-link">Login</a>
+                </li>
+
+                <!-- My Account Link -->
+                <li>
+                  <a href="#" class="footer-link">My account</a>
+                </li>
+
+                <!-- Wish List Link -->
+                <li>
+                  <a href="#" class="footer-link">Wish List</a>
+                </li>
+
+                <!-- Order Tracking Link -->
+                <li>
+                  <a href="#" class="footer-link">Order tracking</a>
+                </li>
+
+                <!-- FAQ Link -->
+                <li>
+                  <a href="#" class="footer-link">FAQ</a>
+                </li>
+
+                <!-- Contact Us Link -->
+                <li>
+                  <a href="#" class="footer-link">Contact us</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+          <div class="container">
+
+            <!-- Copyright -->
+            <p class="copyright">
+              &copy; 2024 <a href="#">JeevanJospeh</a>. All Rights Reserved
+            </p>
+
+          </div>
+        </div>
+
+      </footer>
+
+    </article>
+  </main>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
